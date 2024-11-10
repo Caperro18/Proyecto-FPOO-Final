@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/puntodeventa/views/login.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("comunes\puntodeventa\Interfases\Inicio_de_sesion.fxml"));
         primaryStage.setScene(new Scene(loader.load()));
         primaryStage.setTitle("Sistema de Punto de Venta");
         primaryStage.show();
