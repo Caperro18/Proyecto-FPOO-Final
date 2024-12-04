@@ -1,11 +1,9 @@
-package com.puntodeventa.controllers;
-
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert;
 
-public class ControldeInicio {
+public class Controldeinicio {
     @FXML
     private TextField usernameField;
     @FXML
